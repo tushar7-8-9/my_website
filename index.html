@@ -3,35 +3,6 @@
     <head>
         <link rel="stylesheet" href="static\main.css">
     </head>
-
-    <style>
-        ol.decimal > li {
-          counter-increment: section;
-        }
-    
-        ol.decimal {
-          counter-reset: section;
-          list-style-type: none;
-        }
-    
-        ol.decimal > li::before {
-          content: counter(section) ". ";
-          font-weight: bold;
-        }
-    
-        ol.decimal > li > ol {
-          counter-reset: subsection;
-        }
-    
-        ol.decimal > li > ol > li {
-          counter-increment: subsection;
-        }
-    
-        ol.decimal > li > ol > li::before {
-          content: counter(section) "." counter(subsection) " ";
-          font-weight: normal;
-        }
-      </style>
     <h1>Tushar Bansal</h1>
 
     <ul>
@@ -40,7 +11,7 @@
         <li><a href="undergrad_assignment_proof.html"">Favorite Problems from Undergrad Assignments</li>
     </ul>
     <hr>
-    <ol class = "decimal">
+    <ol>
         <li>
             <p>
                 <a href="https://www.researchgate.net/publication/391633657_A_Combinatorial_Derivation_of_an_Expression_for_A014495n?channel=doi&linkId=681fb120bfbe974b23c7d91d&showFulltext=true">A Combinatorial Derivation of an Expression for A014495(n)</a><br>
@@ -55,5 +26,7 @@
                 </ol>
             </p>
         </li>
+
+        
     </ol>
 </html>
